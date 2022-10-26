@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <section>
+            <div class="google_search">
+                <a href="index.html">Google Search</a>
+            </div>
+        </section>
+
+        <section> 
+            <div>
+                <img src="googlelogo_color_272x92dp.png" alt="Google-logo" height="28px" width="80px" id="image">
+            </div>
+
+            <h4 style="color:red;">Advanced Search</h4>
+            <h5  style="font-weight:normal">Find pages with...</h5>
+
+            <div>
+               <form action="https://www.google.com/search">
+                <label class="marign" for="allwords"> all these words:</label>
+                <input type="text" name="q" id="allwords">
+                <br>
+                <label class="marign" for="Eword"> this exact word or phrase:</label>
+                <input type="text" name="q" id="Eword">
+                <br>
+                <label class="marign" for="Awords"> any of these words:</label>
+                <input type="text" name="q" id="Awords">
+                <br>
+                <label class="marign" for="none"> none of these words:</label>
+                <input type="text" name="q" id="none">
+                <br>
+                <div>
+                    <button class="btn btn-primary" type="submit">Advance Search</button>
+                </div>
+               
+               </form> 
+            </div>
+        </section>
+    </body>
+</html>
